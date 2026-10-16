@@ -1,1 +1,166 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mohanad Adel | Data Analyst</title>
+  <style>
+    body {
+      background-color: #071018;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
 
+    header {
+      background-color: #0d1a2d;
+      padding: 20px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h2 {
+      color: #52a8ff;
+      margin: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    .hero {
+      padding: 100px 8%;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 15px;
+    }
+
+    .hero h1 span {
+      color: #52a8ff;
+    }
+
+    .hero p {
+      color: #a7b7cc;
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #267fe0;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    .projects {
+      padding: 60px 8%;
+    }
+
+    .projects h2 {
+      color: #52a8ff;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #0d1a2d;
+      padding: 24px;
+      border-radius: 10px;
+      border: 1px solid #1c3a57;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: white;
+    }
+
+    .card p {
+      color: #a7b7cc;
+      line-height: 1.8;
+    }
+
+    .card a {
+      color: #52a8ff;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #a7b7cc;
+    }
+
+    @media (max-width: 600px) {
+      .hero {
+        padding: 70px 6%;
+      }
+
+      .hero h1 {
+        font-size: 34px;
+      }
+
+      header {
+        padding: 18px 6%;
+      }
+
+      nav a {
+        margin-left: 8px;
+        font-size: 13px;
+      }
+
+      .projects {
+        padding: 40px 6%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Mohanad Adel</h2>
+    <nav>
+      <a href="#projects">مشاريعي</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>أنا <span>محلل بيانات</span></h1>
+    <p>أحول البيانات لقرارات باستخدام Excel وPower BI.</p>
+    <a class="button" href="#projects">شوف مشاريعي</a>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2>مشاريعي</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>تحليل المبيعات</h3>
+        <p>تحليل أداء المبيعات باستخدام Excel وPower BI.</p>
+        <a href="#">شوف المشروع</a>
+      </div>
+      <div class="card">
+        <h3>تحليل الموارد البشرية</h3>
+        <p>داشبورد HR فيهو الـ turnover والأقسام.</p>
+        <a href="#">شوف المشروع</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>Mohanad Adel | Data Analyst</footer>
+
+</body>
+</html>
